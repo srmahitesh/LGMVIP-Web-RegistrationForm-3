@@ -1,0 +1,54 @@
+#leftbox {
+	float: left;
+	width: 49%;
+	height: 700px;
+	border: solid rgb(123, 111, 213);
+}
+
+#rightbox {
+	float: right;
+	width: 49%;
+	height: 700px;
+	border: solid rgb(123, 111, 213);
+	text-align: center;
+}
+
+.inputs {
+	margin: 10px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs label {
+	font-size: larger;
+	margin-bottom: 5px;
+}
+
+.inputs input,
+.inputs select {
+	border-radius: 5px;
+	padding: 5px;
+	font-size: larger;
+	width: 100%;
+}
+
+.inputs div {
+	display: flex;
+	justify-content: space-between;
+}
+
+#submit-btn, #clear-btn {
+	background-color: rgb(62, 203, 40);
+	font-size: x-large;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 48%;
+	cursor: pointer;
+}
+
+#clear-btn {
+	background-color: rgb(237, 39, 39);
+	cursor: pointer;
+}
